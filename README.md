@@ -1,10 +1,29 @@
-# Getting Started with Create React App
+# React Developer Case Study Project
+Built by making api get calls to Hackernews.  It's a great source of tech-related news. They provide a public API at https://hackernews.api-docs.io.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal is to make a react web application to make it easier to navigate the news:
 
-## Available Scripts
+- Display a selection of the latest top stories;
+- Scroll down to reload and get newer stories;
+- As there are many stories I used lazy loading when I display them.
+- ## Built With 🔨
 
-In the project directory, you can run:
+- Create React App
+- JXS
+- Style Component
+- Visual Studio Code
+- Git & Github
+- React
+
+### Install
+
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project using the command `git clone https://github.com/DanSam5K/case-study-project.git`
+- `cd <clone>` folder
+- Run `npm install` to install all project dependencies
+- Run `npm start` in your local browser or using Live Server in Visual Studio Code.
+
 
 ### `npm start`
 
@@ -18,53 +37,26 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
+ ## Author
 
-### `npm run build`
+👤 **Daniel Samuel**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Github: [DanSam5k](https://github.com/DanSam5k)
+- Twitter: [@_dan_sam](https://twitter.com/_dan_sam)
+- Linkedin: [dansamuel](https://www.linkedin.com/in/dansamuel/)
+### Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- For anyone who wants to practice Webpack skills.
+- How to manage your front-end files using Webpack.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 Contributing
 
-### `npm run eject`
+Contributions, issues, and feature requests are welcome!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to check the [issues page](https://github.com/DanSam5K/case-study-project/issues).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Show your support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Give a ⭐️ if you like this project!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
